@@ -1,0 +1,1 @@
+{"name":"Local: Edit_Distance","url":"/media/akhi/Data/cses/DP/Edit_Distance.cpp","tests":[{"id":1721070123062,"input":"LOVE\nMOVIE","output":""},{"id":1721154057309,"input":"AAAAAAABAAAAAA\nAAAAAAAAAAAAAAA","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/akhi/Data/cses/DP/Edit_Distance.cpp","group":"local","local":true}

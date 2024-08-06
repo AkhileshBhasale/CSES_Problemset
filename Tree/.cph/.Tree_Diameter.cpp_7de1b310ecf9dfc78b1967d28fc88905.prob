@@ -1,0 +1,1 @@
+{"name":"Local: Tree_Diameter","url":"/media/akhi/Data/cses/Tree/Tree_Diameter.cpp","tests":[{"id":1699915029788,"input":"5\n1 2\n1 3\n3 4\n3 5","output":"3"},{"id":1699915974690,"input":"3\n1 2\n1 3","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/akhi/Data/cses/Tree/Tree_Diameter.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Array_Description","url":"d:\\CSES Problem_Set\\DP\\Array_Description.cpp","tests":[{"id":1664288766178,"input":"3 5\n2 0 2","output":"3"},{"id":1664289239090,"input":"10 3\n0 0 0 1 0 0 0 3 0 0","output":"348"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CSES Problem_Set\\DP\\Array_Description.cpp","group":"local","local":true}

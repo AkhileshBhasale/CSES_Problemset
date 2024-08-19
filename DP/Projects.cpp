@@ -9,5 +9,10 @@ int32_t main() {
     std::cin.tie(nullptr);
     int n;
     cin>>n;
+    vector<int> days;
+    vector<pair<pair<int , int> , int>> projects;
+    for(int i=0;i<n;i++){
+        
+    }
     return 0;
 }

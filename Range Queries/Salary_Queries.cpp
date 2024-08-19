@@ -4,10 +4,9 @@
 #define int long long
 using namespace std;
 
-int32_t main() {
+int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
-    int n;
-    cin>>n;
+
     return 0;
 }

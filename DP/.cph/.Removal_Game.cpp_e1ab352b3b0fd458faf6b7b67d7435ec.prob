@@ -1,1 +1,0 @@
-{"name":"Local: Removal_Game","url":"/media/akhi/Data/cses/DP/Removal_Game.cpp","tests":[{"id":1723531109577,"input":"4\n4 5 1 3","output":"8"},{"id":1723533222675,"input":"10\n-5 5 9 -4 10 -9 0 3 2 -6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/akhi/Data/cses/DP/Removal_Game.cpp","group":"local","local":true}

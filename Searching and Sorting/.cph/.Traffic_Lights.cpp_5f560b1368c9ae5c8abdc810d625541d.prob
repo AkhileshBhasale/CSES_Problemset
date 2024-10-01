@@ -1,1 +1,0 @@
-{"name":"Local: Traffic_Lights","url":"/media/akhi/Data/cses/Searching and Sorting/Traffic_Lights.cpp","tests":[{"id":1716927001845,"input":"8 3\n3 6 2","output":"5 3 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/akhi/Data/cses/Searching and Sorting/Traffic_Lights.cpp","group":"local","local":true}

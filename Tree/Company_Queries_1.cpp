@@ -4,23 +4,35 @@
 #define int long long
 using namespace std;
 
-int main() {
+int32_t main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int n,q;
     cin>>n>>q;
-    vector<vector<int>> list(30 , vector<int>(n+1 , -1));
+    vector<vector<int>> lift(n+1 , vector<int>(31 , -1));
     for(int i=2;i<=n;i++){
-        cin>>list[1][i];
+        cin>>lift[i][0];
     }
-    for(int j=2;j<=30;j++){
+    for(int j=1;j<=30;j++){
         for(int i=1;i<=n;i++){
-            if(i+(1<<(j))-1 >=n){
-                lift[i][j]=mod;
-                continue;
-            }
-            lift[i][j]=min(lift[i][j-1] , lift[i+(1<<(j-1))][j-1]);
+            if(lift[i][j-1]==-1) continue;
+            lift[i][j]=lift[lift[i][j-1]][j-1];
         }
+    }
+    while(q--){
+        int x,k;
+        cin>>x>>k;
+        for(int j=0;j<=30;j++){
+            if(k & 1<<j){
+                // cout<<a<<" "<<j<<" "<<lift[a][j]<<"\n";
+                x=lift[x][j];
+            }
+            if(x==-1){
+                x=-1;
+                break;
+            }
+        }
+        cout<<x<<"\n";
     }
     return 0;
 }

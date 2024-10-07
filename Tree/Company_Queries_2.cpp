@@ -32,16 +32,11 @@ int32_t main() {
         }
     };
     dfs(1 , 0 , dfs);
-    // for(int i=1;i<=n;i++){
-    //     cout<<depth[i]<<" ";
-    // }
-    int d;
     while(q--){
         int a,b;
         cin>>a>>b;
         if(depth[a]>depth[b]) swap(a , b);
-        d=depth[b]-depth[a];
-        if(depth[a]!=depth[b]) for(int i=0;i<=18;i++) if(1<<i & d) b=lift[b][i];
+        if(depth[a]!=depth[b]) for(int i=0;i<=18;i++) if(1<<i & (depth[b]-depth[a])) b=lift[b][i];
         if(a==b){
             cout<<a<<"\n";
             continue;
